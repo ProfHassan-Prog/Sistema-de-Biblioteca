@@ -34,6 +34,7 @@ O sistema segue um modelo **modular** baseado em camadas:
 
 lib-system/
 ├─ index.html # Ponto de entrada
+
 ├─ assets/
 │ ├─ css/ # Estilos globais
 │ │ └─ style.css
