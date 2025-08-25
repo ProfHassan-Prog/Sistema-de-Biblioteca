@@ -33,18 +33,29 @@ Trata-se de uma aplicação **SPA (Single Page Application)** organizada em cama
 O sistema segue um modelo **modular** baseado em camadas:
 
 lib-system/
+
 ├─ index.html # Ponto de entrada
 
 ├─ assets/
+
 │ ├─ css/ # Estilos globais
+
 │ │ └─ style.css
+
 │ └─ app/
+
 │ ├─ core/ # Infraestrutura (router, storage)
+
 │ ├─ models/ # Estruturas de dados (Book, User, Loan)
+
 │ ├─ services/ # Regras de negócio
+
 │ ├─ components/ # Componentes reutilizáveis (Navbar, Table, Toast)
+
 │ ├─ pages/ # Páginas da aplicação (Books, Users, Loans, Dashboard)
+
 │ └─ utils/ # Funções utilitárias (datas, validações)
+
 └─ README.md
 
 
